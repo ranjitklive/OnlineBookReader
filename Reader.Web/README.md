@@ -2,6 +2,9 @@
 
 ## Reader.Web
 
-- Hosted as Azure Static Web Apps
-- Web hosting for static content
-- Globally distributed static content
+- Hosted as Azure App Service
+- Hosted in multi-region
+- Backed by Microservices
+- Communicates with Azure App Gateway with Azure API Management listener
+- APIs from Microservices are imported into Azure API Management - using OpenAPI specification
+- Azure Front-Door as Layer-7 load balancer

@@ -2,37 +2,20 @@
 
 ## Reader.Web
 
-- Azure Front Door
-- Azure CDN
-- Azure DNS
-- Azure Static Web Apps
-- Azure API Gateway
-
-## Azure Front Door
-
-- Load Balancer
-- Geo-replication
-
-## Azure CDN
-
-- Geo-replication
-
-## Azure DNS
-
-- Domain Look-up
-
-## Azure Static Web Apps
-
+- Hosted as Azure Static Web Apps
 - Web hosting for static content
 - Globally distributed static content
 
-## Azure API Management
+---
 
-- Authorisation
-- Validate Token
-- Routing
-- Rate Limiting
-- Caches Response
+## API Gateway
+
+- Throttling
+- Reverse Proxy
+
+---
+
+# Microservices
 
 ## Reader.Services.Identity
 
@@ -66,9 +49,9 @@
 
 ## Reader.Services.Coupons
 
-- Add Promo Code
-- Activate Promo Code
-- Deactivate Promo Code
+- Add Coupon Code
+- Activate Coupon Code
+- Deactivate Coupon Code
 
 ## Reader.Services.Search
 
@@ -106,3 +89,72 @@
 
 - Event Sourcing
 - Transactions across services
+
+---
+
+## Azure Services
+
+- Azure Front Door
+- Azure CDN
+- Azure DNS
+- Azure Static Web Apps
+- Azure API Management
+- Azure Key Vault
+- Azure AD B2C
+- Azure Service Bus Topic
+- Azure Kubernetes Service / Azure Container Instances
+- Azure Container Registry
+- Azure Application Gateway?
+- Azure Monitor Logs
+- Azure Application Insights
+- Azure Repos / GitHub
+- Azure Pipelines / GitHub Actions
+- Azure App Configuration
+
+---
+
+## Azure Front Door
+
+- Load Balancer
+- Geo-replication
+
+## Azure CDN
+
+- Geo-replication
+
+## Azure DNS
+
+- Domain Look-up
+
+## Azure Static Web Apps
+
+- Web hosting for static content
+- Globally distributed static content
+
+## Azure API Management
+
+- Authorisation
+- Validate Token
+- Routing
+- Rate Limiting
+- Caches Response
+
+## Azure Key Vault
+
+## Azure AD B2C
+
+## Azure Service Bus Topic
+
+## Azure Kubernetes Service
+
+## Azure Container Registry
+
+## Azure Application Gateway
+
+## Azure Monitor Logs
+
+## Azure Application Insights
+
+## Azure Repos
+
+## Azure Pipelines
